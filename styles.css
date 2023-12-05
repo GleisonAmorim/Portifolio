@@ -90,6 +90,9 @@ header img {
         grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
         gap: 10px; /* Espaçamento entre os itens */
     }
+        .project-item {
+        width: 100%;
+    }
 }
 .project-tabs {
     display: flex;
