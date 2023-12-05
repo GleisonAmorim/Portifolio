@@ -3,11 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f2f2f2;
-    display: flex;
-    justify-content: center; /* Centraliza o conteúdo horizontalmente */
-    align-items: center; /* Centraliza o conteúdo verticalmente */
-    height: 100vh; /* Garante que a altura da tela seja totalmente ocupada */
-}
+
 
 header {
     background-color: #000000;
