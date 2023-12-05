@@ -49,7 +49,6 @@ header img {
 .personal-info {
     text-align: left;
     margin-right: 5px;
-    width: calc(500% - 240px);
 }
 
 /* Adicione uma regra de media query para ajustar o layout em dispositivos menores */
@@ -116,7 +115,7 @@ header img {
 
 .project-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(calc(33.33% - 20px), 1fr)); /* Alteração aqui */
+    grid-template-columns: repeat(auto-fill, minmax(calc(33.33% - 20px), 1fr));
     gap: 20px;
 }
 
