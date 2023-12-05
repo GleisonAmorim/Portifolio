@@ -49,6 +49,7 @@ header img {
 .personal-info {
     text-align: left;
     margin-right: 5px;
+    width: calc(500% - 240px);
 }
 
 /* Adicione uma regra de media query para ajustar o layout em dispositivos menores */
