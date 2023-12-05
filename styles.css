@@ -1,3 +1,4 @@
+
 body {
     font-family: 'Cambria', serif;
     margin: 0;
@@ -53,7 +54,7 @@ header img {
 }
 
 /* Adicione uma regra de media query para ajustar o layout em dispositivos menores */
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 600px) {
     header {
         flex-direction: column;
         align-items: center;
@@ -84,15 +85,6 @@ header img {
     header img {
         margin-top: 10px; /* Espaçamento entre a imagem e as badges */
     }
-
-    .project-grid {
-        display: grid;
-        grid-template-columns: 1fr;
-        gap: 20px;
-    }
-    .project-item {
-        width: 100% !important;
-    }
 }
 .project-tabs {
     display: flex;
@@ -117,7 +109,7 @@ header img {
 
 .project-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(calc(33.33% - 20px), 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 20px;
 }
 
@@ -150,8 +142,7 @@ header img {
     display: block;
     margin: auto;
     border-radius: 10px;
-    object-fit: cover;
-    height: auto; /* Adicione esta linha */
+    object-fit: cover; /* Adiciona esta linha para ajustar o tamanho da imagem */
 }
 
 .project-links {
