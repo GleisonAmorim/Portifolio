@@ -54,7 +54,11 @@ header img {
 }
 
 /* Adicione uma regra de media query para ajustar o layout em dispositivos menores */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 767px) {
+    .project-grid {
+        grid-template-columns: 1fr; /* Um projeto por linha em dispositivos menores */
+    }
+}
     header {
         flex-direction: column;
         align-items: center;
