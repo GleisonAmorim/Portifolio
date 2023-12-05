@@ -86,6 +86,7 @@ header img {
     }
 
     .project-grid {
+        display: grid;
         grid-template-columns: 1fr; /* Exibir um item por linha */
         gap: 10px; /* Espaçamento entre os itens */
     }
