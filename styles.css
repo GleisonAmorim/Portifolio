@@ -90,7 +90,7 @@ header img {
     }
 
     .project-item {
-        width: 100% !important;
+        width: 100%;
     }
 }
 .project-tabs {
