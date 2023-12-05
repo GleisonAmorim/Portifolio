@@ -84,6 +84,12 @@ header img {
     header img {
         margin-top: 10px; /* Espaçamento entre a imagem e as badges */
     }
+
+        .project-grid {
+        grid-template-columns: 1fr; /* Exibir um item por linha */
+        gap: 10px; /* Espaçamento entre os itens */
+    }
+}
 }
 .project-tabs {
     display: flex;
