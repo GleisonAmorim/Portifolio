@@ -91,6 +91,7 @@ header img {
 
     .project-item {
         width: 100%;
+        margin-right: 0; /* Remover a margem à direita que pode estar causando problemas */
     }
 }
 .project-tabs {
