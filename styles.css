@@ -86,7 +86,9 @@ header img {
     }
 
     .project-grid {
+        display: grid;
         grid-template-columns: 1fr;
+        gap: 20px;
     }
     .project-item {
         width: 100% !important;
