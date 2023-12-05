@@ -87,7 +87,7 @@ header img {
 
     .project-grid {
         display: grid;
-        grid-template-columns: 1fr; /* Exibir um item por linha */
+        grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
         gap: 10px; /* Espaçamento entre os itens */
     }
 }
