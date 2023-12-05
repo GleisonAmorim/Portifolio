@@ -88,9 +88,8 @@ header img {
     .project-grid {
         grid-template-columns: 1fr;
     }
-
     .project-item {
-        width: 100%;
+        width: 100% !important;
     }
 }
 .project-tabs {
@@ -149,7 +148,8 @@ header img {
     display: block;
     margin: auto;
     border-radius: 10px;
-    object-fit: cover; /* Adiciona esta linha para ajustar o tamanho da imagem */
+    object-fit: cover;
+    height: auto; /* Adicione esta linha */
 }
 
 .project-links {
