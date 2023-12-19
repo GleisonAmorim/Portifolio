@@ -92,11 +92,28 @@ header img {
     margin: 20px 0;
 }
 
+
 .project-tab {
     padding: 10px;
     cursor: pointer;
     border: 1px solid #ccc;
     border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    transition: background-color 0.3s;
+    display: inline-block; /* Torna os botões de guia elementos de bloco */
+    text-align: center; /* Centraliza o texto no botão */
+    text-decoration: none; /* Remove sublinhado padrão de links */
+    margin: 5px; /* Adiciona algum espaço entre os botões */
+}
+
+.project-tab:hover {
+    background-color: #555;
+}
+
+/* Estilo para a guia ativa (selecionada) */
+.project-tab.active {
+    background-color: #555;
 }
 
 .project-content {
