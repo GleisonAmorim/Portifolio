@@ -14,4 +14,4 @@ Este é o repositório do meu portfólio online, que apresenta minha jornada com
 2. Utilize as abas para alternar entre projetos em Python, desenvolvimento web e análise de dados.
 3. Entre em contato através das badges de WhatsApp, LinkedIn ou E-mail disponíveis no cabeçalho.
 
-#DesenvolvedorWeb #AnalistaDeDados #Python #HTML #CSS #JavaScript #Portfólio #ProjetosDeDesenvolvimento #GitHub #WebDevelopment #DataAnalysis #OpenSource #CodingLife #Programação #TechPortfolio #DeveloperJourney #TechSkills #PortfolioShowcase
+#PortfólioJava #WebDevelopment #HTMLCSSJava #PortfólioDeDesenvolvimentoWeb #JavaWeb #FrontEndDev #WebDesign #JavaProgramming #CSS3 #HTML5 #PortfólioDeProgramação #DesenvolvimentoWeb #JavaDeveloper #CSSDesign #HTMLPortfolio #WebDevPortfolio #JavaProjects #CodingPortfolio #CSS3Design #HTML5Development #JavaCSSHTML #PortfolioWebsite #WebDeveloper #JavaCoding #CSSLayout #HTMLDesign #CodePortfolio #JavaWebDev #CSSStyling #HTMLCoding
