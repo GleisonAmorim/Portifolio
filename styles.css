@@ -11,6 +11,7 @@ header {
     color: #fff;
     padding: 20px;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
     position: relative; /* Adiciona posição relativa ao cabeçalho */
