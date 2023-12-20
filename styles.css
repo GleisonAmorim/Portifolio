@@ -57,10 +57,10 @@ header img {
     text-align: center;
     margin-top: 20px;
     display: flex;
-    justify-content: flex-end; /* Adicione esta linha para alinhar o botão à direita */
+    justify-content: flex-end;
 }
 .botao-cv {
-    display: inline-block;
+    display: left;
     padding: 10px 20px;
     font-size: 16px;
     text-align: center;
@@ -71,7 +71,6 @@ header img {
     color: #fff;
     background-color: #008CBA;
     border-radius: 5px;
-    float: left; 
 }
 
 .botao-cv:hover {
