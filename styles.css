@@ -22,23 +22,6 @@ header img {
     height: 110px; /* Ajuste o valor conforme necessário */
 }
 
-.botao-cv {
-    display: left;
-    padding: 10px 20px;
-    font-size: 16px;
-    text-align: center;
-    text-decoration: none;
-    cursor: pointer;
-    margin: 10px 0 10px 0; /* Ajuste a margem conforme necessário (top, right, bottom, left) */
-    border: 2px solid #008CBA;
-    color: #fff;
-    background-color: #008CBA;
-    border-radius: 5px;
-}
-
-.botao-cv:hover {
-    background-color: #005F7D; /* Cor mais escura ao passar o mouse */
-}
 
 .contact-badges {
     display: flex;
@@ -110,10 +93,6 @@ header img {
     margin: 20px 0;
 }
 
-header .botao-cv {
-            position: static;
-            margin-left: 20px;
-        }
 
 .project-tab {
     padding: 10px;
