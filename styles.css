@@ -56,8 +56,9 @@ header img {
 .download-button {
     text-align: center;
     margin-top: 20px;
+    display: flex;
+    justify-content: flex-end; /* Adicione esta linha para alinhar o botão à direita */
 }
-
 .botao-cv {
     display: inline-block;
     padding: 10px 20px;
@@ -70,6 +71,7 @@ header img {
     color: #fff;
     background-color: #008CBA;
     border-radius: 5px;
+    float: right; 
 }
 
 .botao-cv:hover {
