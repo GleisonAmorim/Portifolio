@@ -23,9 +23,22 @@ header img {
 }
 
 .botao-cv {
-    background-color: #008CBA;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 10px;
     border: 2px solid #008CBA;
- }
+    color: #fff;
+    background-color: #008CBA;
+    border-radius: 5px;
+}
+
+.botao-cv:hover {
+    background-color: #005F7D; /* Cor mais escura ao passar o mouse */
+}
 
 .contact-badges {
     display: flex;
