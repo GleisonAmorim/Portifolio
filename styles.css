@@ -29,7 +29,7 @@ header img {
     text-align: center;
     text-decoration: none;
     cursor: pointer;
-    margin: 10px;
+    margin: 10px 0 10px 0; /* Ajuste a margem conforme necessário (top, right, bottom, left) */
     border: 2px solid #008CBA;
     color: #fff;
     background-color: #008CBA;
