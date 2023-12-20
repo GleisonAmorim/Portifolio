@@ -53,6 +53,28 @@ header img {
     margin-right: 5px;
     width: calc(500% - 240px);
 }
+.download-button {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.botao-cv {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 10px;
+    border: 2px solid #008CBA;
+    color: #fff;
+    background-color: #008CBA;
+    border-radius: 5px;
+}
+
+.botao-cv:hover {
+    background-color: #00506b;
+}
 
 /* Adicione uma regra de media query para ajustar o layout em dispositivos menores */
 @media screen and (max-width: 600px) {
