@@ -23,13 +23,17 @@ header img {
 }
 
 .botao-cv {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    position: absolute;
-    right: 20px;
-    top: 50%; /* Posiciona as badges no meio verticalmente */
-    transform: translateY(-50%);
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 10px;
+    border: 2px solid #008CBA;
+    color: #fff;
+    background-color: #008CBA;
+    border-radius: 5px;
 }
 
 .botao-cv:hover {
@@ -106,6 +110,10 @@ header img {
     margin: 20px 0;
 }
 
+header .botao-cv {
+            position: static;
+            margin-left: 20px;
+        }
 
 .project-tab {
     padding: 10px;
