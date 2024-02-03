@@ -61,8 +61,8 @@ header h1 {
     left: 10px;
     display: block;
     padding: 10px;
-    background-color: #ff00c1;
-    color: #993399;
+    background-color: #993399; /* Cor de fundo roxa */
+    color: #FFFFFF; /* Cor do texto branca */
     text-decoration: none;
     text-align: center;
     border-radius: 5px;
@@ -70,7 +70,7 @@ header h1 {
 }
 
 .back-button:hover {
-    background-color: #e600b4;
+    background-color: #ff00c1; /* Altera a cor de fundo ao passar o mouse */
 }
 
 .event:nth-child(even) {
