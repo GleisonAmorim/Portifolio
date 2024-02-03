@@ -66,6 +66,8 @@ header h1 {
             text-decoration: none;
             text-align: center;
             border-radius: 5px;
+            z-index: 2; /* Garante que o botão fique acima do restante do conteúdo */
+
         }
 
         .back-button:hover {
