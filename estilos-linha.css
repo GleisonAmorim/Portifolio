@@ -70,7 +70,7 @@ header h1 {
 }
 
 .back-button:hover {
-    background-color: #ff00c1; /* Altera a cor de fundo ao passar o mouse */
+    background-color: #800080; /* Cor de fundo mais escura (quase roxo) ao passar o mouse */
 }
 
 .event:nth-child(even) {
