@@ -40,7 +40,8 @@ header h1 {
 
 .event {
     position: relative;
-    width: 300px;
+    width: 100%; /* Alterado para ocupar a largura total */
+    max-width: 300px; /* Adicionado um limite de largura */
     padding: 20px;
     background-color: rgba(0, 0, 0, 0.9);
     color: #00fff9;
