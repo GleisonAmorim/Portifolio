@@ -55,24 +55,23 @@ header h1 {
     text-align: center;
 }
 
- .back-button {
-            position: fixed;
-            top: 10px;
-            left: 10px;
-            display: block;
-            padding: 10px;
-            background-color: #ff00c1;
-            color: #fff;
-            text-decoration: none;
-            text-align: center;
-            border-radius: 5px;
-            z-index: 2; /* Garante que o botão fique acima do restante do conteúdo */
+.back-button {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    display: block;
+    padding: 10px;
+    background-color: #ff00c1;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 5px;
+    z-index: 2; /* Garante que o botão fique acima do restante do conteúdo */
+}
 
-        }
-
-        .back-button:hover {
-            background-color: #e600b4;
-        }
+.back-button:hover {
+    background-color: #e600b4;
+}
 
 .event:nth-child(even) {
     background-color: rgba(0, 0, 0, 0.9);
@@ -113,7 +112,6 @@ header h1 {
     font-size: 2em;
     margin-bottom: 10px;
 }
-
 
 footer {
     background-color: #191818;
