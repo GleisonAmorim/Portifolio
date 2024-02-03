@@ -55,20 +55,22 @@ header h1 {
     text-align: center;
 }
 
-.back-button {
-    display: block;
-    margin-bottom: 20px;
-    padding: 10px;
-    background-color: #ff00c1;
-    color: #fff;
-    text-decoration: none;
-    text-align: center;
-    border-radius: 5px;
-}
+ .back-button {
+            position: fixed;
+            top: 10px;
+            left: 10px;
+            display: block;
+            padding: 10px;
+            background-color: #ff00c1;
+            color: #fff;
+            text-decoration: none;
+            text-align: center;
+            border-radius: 5px;
+        }
 
-.back-button:hover {
-    background-color: #e600b4;
-}
+        .back-button:hover {
+            background-color: #e600b4;
+        }
 
 .event:nth-child(even) {
     background-color: rgba(0, 0, 0, 0.9);
